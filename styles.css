@@ -9,7 +9,8 @@ header {
 nav {
     max-width: 800px;
     margin-left: 150px;
-    padding: 24px;
+    padding: 20px;
+    text-align: center;
   }  
 
 h1 {
