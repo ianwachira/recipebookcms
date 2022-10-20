@@ -12,9 +12,9 @@
           </article>
           <ul>
             <nav>
-              <a href="index.html">Home</a> |
-              <a href="recipe-post.html">Post Your Recipes</a> |
-              <a href="recipes.html">Recipe List</a> 
+              <a href="index.php">Home</a> |
+              <a href="recipe-post.php">Post Your Recipes</a> |
+              <a href="recipe-list.php">Recipe List</a> 
             </nav>
           </ul>
             <footer>
