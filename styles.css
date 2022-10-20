@@ -7,11 +7,11 @@ header {
   }  
   
 nav {
-    max-width: 800px;
-    margin-left: 150px;
-    padding: 20px;
+    font-size: 20px;
     text-align: center;
-  }  
+    margin-right: 550px;
+    
+  }
 
 h1 {
     font-family: sans-serif;
