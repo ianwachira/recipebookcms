@@ -17,10 +17,12 @@
               <a href="recipe-list.php">Recipe List</a> 
             </nav>
           </ul>
+          <div class= "footer">
             <footer>
                 <p>Created by: Ian Wachira</p>
                 <p><a href="mailto:iwachira@lesley.edu">iwachira@lesley.edu</a></p>
             </footer>
+          </div>
     </main>
     <body>
 

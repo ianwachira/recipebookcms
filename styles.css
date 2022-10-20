@@ -10,20 +10,29 @@ header {
     margin-left: auto;
     margin-right: auto;
     padding: 24px;
+    text-align: center;
   }  
   
 nav {
     font-size: 20px;
     text-align: center;
-    margin-right: 550px;
+    margin-right: 60px;
   }
 
 footer {
-    margin-top: 630px;
+    margin-top: 620px;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
     border-top: 3px solid rgba(0, 140, 255, 0.808);
+}
+
+form {
+  margin-top: 100px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 24px;
 }
 
 h1 {
