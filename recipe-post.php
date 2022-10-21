@@ -3,9 +3,12 @@
     include 'nav.php';
 ?>
 <html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 <body>
-<div class= "form">
   <main>
+  <div class= "form">
     <form action="/submit-recipe.php" method="POST" enctype="multipart/form-data">
         Select image to upload:
         <input type="file" name="fileToUpload" id="fileToUpload">
@@ -22,10 +25,10 @@
         <textarea id="content" name="content" rows="4" cols="50">Write your recipe</textarea>
         <input type="submit" value="Submit">
       </form>
-      </div>
+  </div>
   </main>
-<?php
-    include 'footer.php';
+  <?php
+    include 'footer2.php';
 ?>
  </body>
 </html>

@@ -8,7 +8,7 @@ header {
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
-    padding: 24px;
+    padding: 20px;
     text-align: center;
   }  
   
@@ -18,8 +18,15 @@ nav {
     margin-right: 60px;
   }
 
-footer {
-    margin-top: 620px;
+.footer {
+    margin-top: 576px;
+    max-width: 850px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 3px solid rgba(0, 140, 255, 0.808);
+}
+.footer2 {
+    margin-top: 220px;
     max-width: 850px;
     margin-left: auto;
     margin-right: auto;
@@ -27,9 +34,10 @@ footer {
 }
 
 .form {
-    position: absolute;
-    margin-left: 720px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
+    max-width: 850px;
 }
 
 h1 {
