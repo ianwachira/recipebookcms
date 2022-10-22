@@ -8,6 +8,7 @@
 </head>
 <body>
   <main>
+    <body>
   <div class= "form">
     <form action="/submit-recipe.php" method="POST" enctype="multipart/form-data">
         Select image to upload:
@@ -26,9 +27,9 @@
         <input type="submit" value="Submit">
       </form>
   </div>
-  </main>
+    </body>
   <?php
     include 'footer2.php';
-?>
- </body>
+  ?>
+  </main>
 </html>
