@@ -4,6 +4,7 @@
 <link rel="stylesheet" href="styles.css">         
 </head>
     <main>
+      <body>
         <article>
             <header>
                 <h1>Welcome to Recipe Book</h1>
@@ -22,10 +23,7 @@
                 <p>Created by: Ian Wachira</p>
                 <p><a href="mailto:iwachira@lesley.edu">iwachira@lesley.edu</a></p>
             </footer>
-          </div>
+        </div>
+      </body>
     </main>
-    <body>
-
-    </body>
-
 </html>
