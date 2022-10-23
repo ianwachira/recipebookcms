@@ -1,29 +1,40 @@
+<?php
+    include 'header.php';
+    include 'nav.php';
+?>
 <html>
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-<link rel="stylesheet" href="styles.css">         
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-    <main>
-      <body>
-        <article>
-            <header>
-                <h1>Welcome to Recipe Book</h1>
-                <p>Share your recipes!</p>
-            </header>
-          </article>
-          <ul>
-            <nav>
-              <a href="index.php">Home</a> |
-              <a href="recipe-post.php">Post Your Recipes</a> |
-              <a href="recipe-list.php">Recipe List</a> 
-            </nav>
-          </ul>
-          <div class= "footer">
-            <footer>
-                <p>Created by: Ian Wachira</p>
-                <p><a href="mailto:iwachira@lesley.edu">iwachira@lesley.edu</a></p>
-            </footer>
-        </div>
-      </body>
-    </main>
+<body>
+<main>
+<?php     
+   function getPostTitlesFromDatabase() {
+   // Get all the post titles from the posts table
+   include_once 'db_connect.php';
+   $sql = "SELECT title FROM posts";
+   $result = mysqli_query($conn, $sql);
+   
+   // Get each result row as an assoc array, then add title to $postTitles
+   $postTitles = array();
+   while($row = mysqli_fetch_assoc($result)){
+       array_push($postTitles, $row['title']);
+   }
+   return $postTitles;
+   }
+?>
+<?php
+   // Display post titles
+   $postTitles = getPostTitlesFromDatabase();
+   foreach ($postTitles as $postTitle) {
+   echo "<li><a href='recipe-post.php?title=" . $postTitle . "'>" . $postTitle .
+   "</a></li>";
+   }
+?>
+</ul>
+</main>
+<?php
+  include 'footer.php';
+?>
+</body>
 </html>

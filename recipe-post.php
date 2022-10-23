@@ -1,6 +1,6 @@
 <?php
-    include 'header.php';
-    include 'nav.php';
+  include 'header.php';
+  include 'nav.php';
 ?>
 <html>
 <head>
@@ -9,13 +9,8 @@
 <body>
   <main>
     <body>
-  <div class= "form">
-    <form action="/submit-recipe.php" method="POST" enctype="multipart/form-data">
-        Select image to upload:
-        <input type="file" name="fileToUpload" id="fileToUpload">
-        <input type="submit" value="Upload Image" name="submit">
-    </form>
-    <form action="/submit-recipe.php" method="POST">
+  <div class="form">
+    <form action="submit-recipe.php" method="post">
         <label for="title">Recipe Name</label>
         <input type="text" id="title" name="title"><br><br>
         <label for="author">Created by</label>
