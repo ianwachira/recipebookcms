@@ -9,7 +9,7 @@
 <body>
 <main>
 <p>
-Post your recipes and view them in the recipe list
+Post your recipes and view them in the recipe list.
 </p>
 </main>
 <?php
