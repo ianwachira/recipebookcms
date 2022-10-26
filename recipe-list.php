@@ -24,7 +24,6 @@
     }
   ?>
   <?php     
-  
    function getPostTitlesFromDatabase() {
    // Get all the post titles from the posts table
    include_once 'db_connect.php';
@@ -43,7 +42,7 @@
    // Display post titles
    $postTitles = getPostTitlesFromDatabase();
    foreach ($postTitles as $postTitle) {
-   echo "<li><a href='recipe-list.php?title=" . $postTitle . "'>" . $postTitle .
+   echo "<li><a href='post-page.php?title=" . $postTitle . "'>" . $postTitle .
    "</a></li>";
    }
 ?>
